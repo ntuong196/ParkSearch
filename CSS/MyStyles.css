@@ -1,0 +1,435 @@
+/*Change the background of the form to blue*/
+body {
+    background-color: #336699;
+}
+
+/*redefine h1 tag */
+h1 {
+    font-size: 34pt;
+}
+
+/*redefine h2 tag */
+h2 {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 25pt;
+    padding-bottom: 0px;
+}
+
+#Welcome {
+    background-color: whitesmoke;
+    width: 500px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/*style the header id*/
+#header {
+    width: 905px;
+    height: 135px;
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 1px solid #ccc;
+}
+
+/*style the menu id*/
+#menu {
+    float: right;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+/*style the links in the menu*/
+#menu a {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size:14pt;
+    font-weight: bold;
+    background-color: #224466;
+    color: white;
+    border-style: ridge;
+    border-width: 3px;
+    text-decoration: none;
+}
+
+/*style the links in the menu when they are hovered over */
+#menu a:hover {
+    background-color: blue;
+    text-decoration: underline;
+}
+
+/*create style for the footer id*/
+#footer {
+    width: 980px;
+    height: auto;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+/*css for registration and login forms*/
+
+/*redefine label tag */
+label {
+    font-weight: bold;
+}
+
+/*create class error_message to be used when an error occurs when submitting a form*/
+.error_message {
+    color: red;
+    font-style: italic;
+}
+
+/*create class required_field which will contain an input, label and error span on a form*/
+.required_field {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*create class registration_and_login to be used on the user registration and login forms*/
+.registration_and_login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 340px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/*redefine h3 tag for .registration_and_login forms */
+.registration_and_login h3 {
+    font-size: 18pt;
+    color: orangered;
+}
+
+/*redefine h2 tag for .registration_and_login forms*/
+.registration_and_login h2 {
+    padding-bottom: 4px;
+    text-align: left;
+}
+
+.registration_and_login p {
+    color: orangered;
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+#login_successful {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 45px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#login_successful h1 {
+    line-height: 30px;
+    text-align: center;
+    font-size: 25pt;
+}
+
+#login_successful p {
+    font-size: 12pt;
+    text-align: center;
+}
+
+/*redefine the input tags to have a width of 90% of the form*/
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"] {
+    width: 90%;
+}
+
+/*create class submit_button_holder. This will contain the submit button which needs to be centered*/
+.submit_button_holder {
+    text-align: center;
+}
+
+/*create class submit_account to be used on submit buttons on login and registration forms*/
+.submit_account {
+    font-size: 17pt;
+    padding: 12px;
+    background-color: #eceef0;
+    cursor: pointer;
+    border-radius: 2px;
+    border-width: 2px;
+    margin-top: 8px;
+}
+
+/*change the style of .submit_account when the submit button is hovered over*/
+.submit_account:hover {
+    background-color: grey;
+    border-style: solid;
+}
+
+
+/*itemPage CSS*/
+
+/*wrapper id for the itempage*/
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 950px;
+    height: 640px;
+}
+
+/*wrapper id for elements on the left hand side of the page*/
+#left_wrapper {
+    float: left;
+    width: 450px;
+}
+
+/*wrapper id for elements on the right hand side of the page*/
+#right_wrapper {
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 490px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 630px;
+}
+
+/*style the location id that will contain the map of where the park is */
+#mapIndividual {
+    border-style: ridge;
+    height: 350px;
+    width: 420px;
+    border-width: 5px;
+    margin-left: 10px;
+}
+
+/*style the info id which will contain an overview on park information */
+#info {
+    height: 235px;
+    width: 430px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 2px;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    padding-top: 23px;
+    margin-left: 7px;
+}
+
+/* redefine the h2 tag of #info */
+#info h2 {
+    margin-bottom: 0px;
+}
+
+/* style id that contains details of the park */
+#details {
+    font-size: 17pt;
+    text-align: left;
+    margin-left: 65px;
+    word-spacing: 5px;
+}
+
+/*style of span that will show the character limit of the review */
+.char_limit {
+    margin-right: 15px;
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 0px;
+    font-family: monospace
+}
+
+/*style of span that will show the star rating left by the user */
+.star_rating {
+    margin-left: 1px;
+    margin-top: -13px;
+    float: left;
+}
+
+/*create reviews id that contains the reviews on the park*/
+#reviews {
+    margin-left: 10px;
+    width: 440px;
+    height: 270px;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+    border-bottom-width: 5px;
+    border-style: double;
+    border-color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+}
+
+/*style class review to be used on each individual review that is written about the park*/
+.review {
+    border-style: solid;
+    border-color: cornflowerblue;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*redefine the h3 tag for the class .review*/
+.review h3 {
+    text-align: center;
+    font-weight: normal;
+    line-height: 30px;
+}
+.review p {
+    border: antiquewhite solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*create id for user_review, the division where the user inputs their review about the park*/
+#user_review {
+    width: 450px;
+    padding-left: 10px;
+    border: aliceblue ridge;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 250px;
+}
+
+/*restyle the .submit_button_holder class to have a larger margin-top*/
+#user_review .submit_button_holder {
+    margin-top: 15px;
+}
+
+/*redefine the h3 tag within #user_review */
+#user_review h3 {
+    text-align: left;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+/*redefine the textarea input within #user_review */
+#user_review textarea {
+    width: 435px;
+    height: 70px;
+    resize: none;
+}
+
+/*style id no_review, to be used when the user can't leave a review*/
+#no_review {
+    width: 450px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-style: ridge;
+    margin-top: 20px;
+    margin-left: 12px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+/*restyle the <a> tag in #no_review (make links italic) */
+#no_review a {
+    font-style: italic;
+}
+
+
+/* results page css */
+
+/*Style the division that contains the map with markers on the search results */
+#resultsMap {
+    height: 350px;
+    width: 800px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border:black solid;
+}
+
+/*style the results id*/
+#results {
+    padding:50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: 800px;
+    border-radius: 10px;
+}
+
+/* redefine the table tag to take up the whole of its division and have a collapsed border */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*redefine th and td to stylise the tables e.g. results table*/
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+/*make every second row lightgrey*/
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+/*make the whole of a table row cadetblue when hovered over */
+tr:hover {
+    background-color: cadetblue;
+}
+
+/*redefine th tag to have a the header table row be midnightblue background and white text*/
+th {
+    background-color: midnightblue;
+    color: floralwhite;
+}
+
+/*used to pass the user's longitude and latitude across forms via get method when searching by location
+ (made invisible from screen)*/
+#lat_holder, #long_holder {
+    display: none;
+}
